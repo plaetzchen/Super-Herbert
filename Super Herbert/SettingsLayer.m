@@ -3,7 +3,7 @@
 //  Super Herbert
 //
 //  Created by Philip Brechler on 10.01.12.
-//  Copyright 2012 Hoccer GmbH. All rights reserved.
+//  Copyright 2012 CC-BY-SA Philip Brechler & Peter Amende 2012 GmbH. All rights reserved.
 //
 
 #import "SettingsLayer.h"

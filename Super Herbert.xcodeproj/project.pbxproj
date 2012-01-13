@@ -193,9 +193,6 @@
 		B478342514BB4F02008F79BC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B478342214BB4F01008F79BC /* Default.png */; };
 		B478342614BB4F02008F79BC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B478342314BB4F01008F79BC /* Default@2x.png */; };
 		B478342714BB4F02008F79BC /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = B478342414BB4F01008F79BC /* iTunesArtwork */; };
-		B478342914BB52D9008F79BC /* smb_mariodie.wav in Resources */ = {isa = PBXBuildFile; fileRef = B478342814BB52D9008F79BC /* smb_mariodie.wav */; };
-		B478342B14BB52E0008F79BC /* smb_jumpsmall.wav in Resources */ = {isa = PBXBuildFile; fileRef = B478342A14BB52E0008F79BC /* smb_jumpsmall.wav */; };
-		B478342D14BB52E9008F79BC /* smb_coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = B478342C14BB52E9008F79BC /* smb_coin.wav */; };
 		B478343014BB5728008F79BC /* HighscoreLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B478342F14BB5728008F79BC /* HighscoreLayer.m */; };
 		B478343B14BB5AF6008F79BC /* background_gameover-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = B478343114BB5AF6008F79BC /* background_gameover-hd.png */; };
 		B478343C14BB5AF6008F79BC /* background_gameover.png in Resources */ = {isa = PBXBuildFile; fileRef = B478343214BB5AF6008F79BC /* background_gameover.png */; };
@@ -209,6 +206,9 @@
 		B478344414BB5AF6008F79BC /* btn_repeat.png in Resources */ = {isa = PBXBuildFile; fileRef = B478343A14BB5AF6008F79BC /* btn_repeat.png */; };
 		B478344714BB5FA9008F79BC /* dude-anim_default.plist in Resources */ = {isa = PBXBuildFile; fileRef = B478344514BB5FA9008F79BC /* dude-anim_default.plist */; };
 		B478344814BB5FA9008F79BC /* dude-anim_default.png in Resources */ = {isa = PBXBuildFile; fileRef = B478344614BB5FA9008F79BC /* dude-anim_default.png */; };
+		B4E3B97714C06A8E00369730 /* gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4E3B97414C06A8E00369730 /* gameover.mp3 */; };
+		B4E3B97814C06A8E00369730 /* coin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4E3B97514C06A8E00369730 /* coin.mp3 */; };
+		B4E3B97914C06A8E00369730 /* whoosh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4E3B97614C06A8E00369730 /* whoosh.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -520,9 +520,6 @@
 		B478342214BB4F01008F79BC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B478342314BB4F01008F79BC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B478342414BB4F01008F79BC /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
-		B478342814BB52D9008F79BC /* smb_mariodie.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = smb_mariodie.wav; sourceTree = "<group>"; };
-		B478342A14BB52E0008F79BC /* smb_jumpsmall.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = smb_jumpsmall.wav; sourceTree = "<group>"; };
-		B478342C14BB52E9008F79BC /* smb_coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = smb_coin.wav; sourceTree = "<group>"; };
 		B478342E14BB5728008F79BC /* HighscoreLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighscoreLayer.h; sourceTree = "<group>"; };
 		B478342F14BB5728008F79BC /* HighscoreLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighscoreLayer.m; sourceTree = "<group>"; };
 		B478343114BB5AF6008F79BC /* background_gameover-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background_gameover-hd.png"; sourceTree = "<group>"; };
@@ -537,6 +534,9 @@
 		B478343A14BB5AF6008F79BC /* btn_repeat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_repeat.png; sourceTree = "<group>"; };
 		B478344514BB5FA9008F79BC /* dude-anim_default.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "dude-anim_default.plist"; sourceTree = "<group>"; };
 		B478344614BB5FA9008F79BC /* dude-anim_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dude-anim_default.png"; sourceTree = "<group>"; };
+		B4E3B97414C06A8E00369730 /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameover.mp3; sourceTree = "<group>"; };
+		B4E3B97514C06A8E00369730 /* coin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coin.mp3; sourceTree = "<group>"; };
+		B4E3B97614C06A8E00369730 /* whoosh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whoosh.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1032,9 +1032,9 @@
 		B478341614BB4B06008F79BC /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				B478342C14BB52E9008F79BC /* smb_coin.wav */,
-				B478342A14BB52E0008F79BC /* smb_jumpsmall.wav */,
-				B478342814BB52D9008F79BC /* smb_mariodie.wav */,
+				B4E3B97414C06A8E00369730 /* gameover.mp3 */,
+				B4E3B97514C06A8E00369730 /* coin.mp3 */,
+				B4E3B97614C06A8E00369730 /* whoosh.mp3 */,
 				B478341A14BB4D9B008F79BC /* background.mp3 */,
 				B478341B14BB4D9B008F79BC /* menu.mp3 */,
 			);
@@ -1156,9 +1156,6 @@
 				B478342514BB4F02008F79BC /* Default.png in Resources */,
 				B478342614BB4F02008F79BC /* Default@2x.png in Resources */,
 				B478342714BB4F02008F79BC /* iTunesArtwork in Resources */,
-				B478342914BB52D9008F79BC /* smb_mariodie.wav in Resources */,
-				B478342B14BB52E0008F79BC /* smb_jumpsmall.wav in Resources */,
-				B478342D14BB52E9008F79BC /* smb_coin.wav in Resources */,
 				B478343B14BB5AF6008F79BC /* background_gameover-hd.png in Resources */,
 				B478343C14BB5AF6008F79BC /* background_gameover.png in Resources */,
 				B478343D14BB5AF6008F79BC /* btn_menu_over-hd.png in Resources */,
@@ -1185,6 +1182,9 @@
 				B4291B1B14BC572E00064D7A /* opt_music_off.png in Resources */,
 				B4291B1C14BC572E00064D7A /* opt_music_on-hd.png in Resources */,
 				B4291B1D14BC572E00064D7A /* opt_music_on.png in Resources */,
+				B4E3B97714C06A8E00369730 /* gameover.mp3 in Resources */,
+				B4E3B97814C06A8E00369730 /* coin.mp3 in Resources */,
+				B4E3B97914C06A8E00369730 /* whoosh.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

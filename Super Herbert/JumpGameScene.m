@@ -3,7 +3,7 @@
 //  Super Herbert
 //
 //  Created by Philip Brechler on 09.01.12.
-//  Copyright 2012 Hoccer GmbH. All rights reserved.
+//  Copyright 2012 CC-BY-SA Philip Brechler & Peter Amende 2012 GmbH. All rights reserved.
 //
 
 #import "JumpGameScene.h"
@@ -274,7 +274,7 @@ kNumBonuses
 			}
 			NSString *scoreStr = [NSString stringWithFormat:@"%d",score];
 			[scoreLabel setString:scoreStr];
-            [self playEffect:@"smb_coin.wav"];
+            [self playEffect:@"coin.mp3"];
 			[self resetBonus];
 		}
 	}
@@ -362,14 +362,14 @@ kNumBonuses
 }
 
 - (void)jump {
-    [self playEffect:@"smb_jumpsmall.wav"];
+    [self playEffect:@"whoosh.mp3"];
 	herbert_vel.y = 350.0f + fabsf(herbert_vel.x);
 }
 
 - (void)gameOver {
     gameSuspended = YES;
     [[SimpleAudioEngine sharedEngine] stopBackgroundMusic];
-    [self playEffect:@"smb_mariodie.wav"];
+    [self playEffect:@"gameover.mp3"];
     [[UIApplication sharedApplication] setIdleTimerDisabled:NO];
     [[NSUserDefaults standardUserDefaults]setInteger:score forKey:@"newHighScore"];
     if (hight > bestHight)

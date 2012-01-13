@@ -3,7 +3,7 @@
 //  Super Herbert
 //
 //  Created by Philip Brechler on 09.01.12.
-//  Copyright Hoccer GmbH 2012. All rights reserved.
+//   CC-BY-SA Philip Brechler & Peter Amende 2012  
 //
 
 #import "cocos2d.h"
@@ -40,6 +40,12 @@
 }
 - (void) applicationDidFinishLaunching:(UIApplication*)application
 {
+    if (![[NSUserDefaults standardUserDefaults]boolForKey:@"firstRun"]){
+        [[NSUserDefaults standardUserDefaults]setInteger:0 forKey:@"musicStatus"];
+        [[NSUserDefaults standardUserDefaults]setInteger:0 forKey:@"effectStatus"];
+        [[NSUserDefaults standardUserDefaults]setBool:YES forKey:@"firstRun"];
+        [[NSUserDefaults standardUserDefaults]synchronize];
+    }
 	// Init the window
 	window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 	

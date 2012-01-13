@@ -3,7 +3,7 @@
 //  Super Herbert
 //
 //  Created by Philip Brechler on 09.01.12.
-//  Copyright Hoccer GmbH 2012. All rights reserved.
+//   CC-BY-SA Philip Brechler & Peter Amende 2012  
 //
 
 
@@ -57,11 +57,11 @@
         
         [startMenu alignItemsVerticallyWithPadding:8.0];
         
-        startMenu.position = ccp(size.width/2, 150);
+        startMenu.position = ccp(size.width/2, 160);
         
         [self addChild:startMenu z:3];
         
-        CCLabelTTF *credits = [CCLabelTTF labelWithString:@"Coding: Philip Brechler • Graphics: Peter Amende • Code: github.com/plaetzchen" dimensions:CGSizeMake(320, 15) alignment:UITextAlignmentCenter fontName:@"Arial" fontSize:8.0];
+        CCLabelTTF *credits = [CCLabelTTF labelWithString:@"Coding: Philip Brechler • Graphics: Peter Amende • Code: github.com/plaetzchen\nMusic CC-BY-SA: Ozzed • Effect: CC-BY-SA freesounds.org" dimensions:CGSizeMake(320, 30) alignment:UITextAlignmentCenter fontName:@"Arial" fontSize:8.0];
         credits.position = ccp(160,10);
         
         [self addChild:credits];
